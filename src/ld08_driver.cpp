@@ -60,6 +60,7 @@ int main(int argc , char **argv)
 		sensor_msgs::LaserScan scan;
 		scan.header.stamp = ros::Time::now();
 		scan.header.frame_id = "base_scan";
+		
 		scan.range_min = 0.0;
 		scan.range_max = 100.0;
 

@@ -1,4 +1,3 @@
-
 #include "slbf.h"
 #include <math.h>
 #include <iostream>
